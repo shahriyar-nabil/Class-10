@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Abril Fatface', serif;
+}
+.container{
+    width: 1180px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+}
+h3{
+    text-transform: capitalize;
+    font-size: 32px;
+    font-weight: 400;
+}
+h4{
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+h5{
+    font-size: 14px;
+    color: #777777;
+}
+/* nav starts */
+nav{
+    background-image: url(../images/bg-1.png);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav .container .row img{
+    width: 9%;
+}
+nav .container .row ul li{
+    display: inline-block;
+    padding-right: 25px;
+}
+nav .container .row ul li a{
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #848484;
+    font-weight: 400;
+}
+nav .container .row ul li button{
+    color: white;
+    background-image: linear-gradient( to right, #01b8ef, #55d1f4);
+    padding: 13px;
+    border-radius: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+nav .nav-heading{
+    margin-top: 100px;
+    width: 45%;
+    /* border: 2px solid black; */
+}
+nav .nav-heading h2{
+    font-size: 58px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+nav .nav-heading p{
+    color: black;
+    font-size: 18px;
+}
+/* nav ends */
+/* <!-- popular categories starts here --> */
+
+#popular .container{
+    margin-top: 90px;
+}
+#popular .container .popular-heading{
+    width: 570px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+#popular .container .popular-heading h3{
+    border-bottom: 3px solid #02b9ef;
+}
+#popular .container .popular-heading p{
+    margin-top: 15px;
+}
+#popular .container .categories{
+    margin-top: 25px;
+}
+#popular .container .categories .card{
+    width: 275px;
+    height: 275px;
+    margin-bottom: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    transition: 0.4s;
+}
+#popular .container .categories .card h4{
+    padding: 5px;
+}
+#popular .container .categories .card:hover {
+    background-color: rgb(1, 184, 239);
+    color: white;
+    transition: 0.4s;
+    width: 29%;
+}
+#popular .container .categories .card p{
+    font-size: 14px;
+    color: #777777;
+}
+
+
+
+
+/* <!-- popular categories ends here --> */
